@@ -1,0 +1,64 @@
+[1mdiff --cc calculator.html[m
+[1mindex fef6bff,14e79b6..0000000[m
+[1m--- a/calculator.html[m
+[1m+++ b/calculator.html[m
+[36m@@@ -8,9 -8,9 +8,15 @@@[m [mfunction cube() [m
+  var num = document.getElementById("n1");[m
+  num.value = Math.pow(num.value, 3);[m
+  }[m
+[32m++<<<<<<< HEAD[m
+[32m +function sen() {[m
+[32m +var num = document.getElementById("n2");[m
+[32m +num.value = Math.sin(X);[m
+[32m++=======[m
+[32m+ function cuatro() {[m
+[32m+ var num = document.getElementById("n2");[m
+[32m+ num.value = Math.pow(num.value, 4);[m
+[32m++>>>>>>> master[m
+  }[m
+  </script>[m
+  </head>[m
+[36m@@@ -19,7 -19,6 +25,11 @@@[m [mNumber[m
+  <input type="text" id="n1"><p>[m
+  <button onclick="cube()"> x^3 </button>[m
+  <input type="text" id="n2"><p>[m
+[32m++<<<<<<< HEAD[m
+[32m +<button onclick="sen()"> sin(X) </button>[m
+[32m +[m
+[32m++=======[m
+[32m+ <button onclick="cuatro()"> x^4 </button>[m
+[32m++>>>>>>> master[m
+  </body>[m
+  </html>[m
+[1mdiff --cc calculator.html[m
+[1mindex fef6bff,14e79b6..0000000[m
+[1m--- a/calculator.html[m
+[1m+++ b/calculator.html[m
+[36m@@@ -8,9 -8,9 +8,15 @@@[m [mfunction cube() [m
+  var num = document.getElementById("n1");[m
+  num.value = Math.pow(num.value, 3);[m
+  }[m
+[32m++<<<<<<< HEAD[m
+[32m +function sen() {[m
+[32m +var num = document.getElementById("n2");[m
+[32m +num.value = Math.sin(X);[m
+[32m++=======[m
+[32m+ function cuatro() {[m
+[32m+ var num = document.getElementById("n2");[m
+[32m+ num.value = Math.pow(num.value, 4);[m
+[32m++>>>>>>> master[m
+  }[m
+  </script>[m
+  </head>[m
+[36m@@@ -19,7 -19,6 +25,11 @@@[m [mNumber[m
+  <input type="text" id="n1"><p>[m
+  <button onclick="cube()"> x^3 </button>[m
+  <input type="text" id="n2"><p>[m
+[32m++<<<<<<< HEAD[m
+[32m +<button onclick="sen()"> sin(X) </button>[m
+[32m +[m
+[32m++=======[m
+[32m+ <button onclick="cuatro()"> x^4 </button>[m
+[32m++>>>>>>> master[m
+  </body>[m
+  </html>[m
